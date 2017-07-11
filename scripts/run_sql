@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FILE="$1"
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+cat "$FILE" || exit 1
+
+echo ""
+
+PGPASSWORD='password' psql -hlocalhost -Uroot immutable_redshift_tables -f "$FILE"

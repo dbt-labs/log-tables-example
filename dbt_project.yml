@@ -1,0 +1,16 @@
+name: 'immutable_redshift_tables'
+version: '1.0'
+
+profile: 'immutable_redshift_tables'
+
+source-paths: ["models"]
+data-paths: ["data"]
+
+archive:
+  - source_schema: public
+    target_schema: public
+    tables:
+      - source_table: users
+        target_table: users_immutable
+        updated_at: updated_at
+        unique_key: id

@@ -1,0 +1,10 @@
+version: '2'
+services:
+  database:
+    image: postgres
+    environment:
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_DB: "immutable_redshift_tables"
+    ports:
+      - "5432:5432"

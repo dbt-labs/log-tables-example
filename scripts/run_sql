@@ -8,4 +8,4 @@ cat "$FILE" || exit 1
 
 echo ""
 
-PGPASSWORD='password' psql -hlocalhost -Uroot immutable_redshift_tables -f "$FILE"
+psql -hlocalhost -Uroot log_tables -f "$FILE"

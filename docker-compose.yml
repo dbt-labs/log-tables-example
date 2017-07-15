@@ -5,6 +5,6 @@ services:
     environment:
       POSTGRES_USER: "root"
       POSTGRES_PASSWORD: "password"
-      POSTGRES_DB: "immutable_redshift_tables"
+      POSTGRES_DB: "log_tables"
     ports:
       - "5432:5432"

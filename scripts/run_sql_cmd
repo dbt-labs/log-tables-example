@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CMD="$1"
+
+psql -hlocalhost -Uroot log_tables -c "$CMD"

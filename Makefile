@@ -8,4 +8,5 @@ clean:
 
 seed:
 	scripts/run_sql scripts/drop_schema.sql
-	dbt --debug seed --drop-existing
+	dbt seed --drop-existing
+	dbt archive

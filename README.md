@@ -22,7 +22,7 @@ Inside the repo, run:
 
 ```bash
 $ make up
-$ make build
+$ make seed
 ```
 
 ### Usage
@@ -33,13 +33,7 @@ You can connect to the installed Docker postgres with:
 PGPASS=password psql -Uroot -hlocalhost log_tables
 ```
 
-The Makefile has a few useful commands built in:
-
-```bash
-make seed # re-seed the database
-make send # add a send for each user using their current email address
-make change_emails # update the email address for each user
-```
+Or run sql with `./scripts/run_sql_cmd`
 
 To archive the current state of the users table to the log table, run:
 

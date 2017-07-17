@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "width": 183,
+  "height": 48,
+  "duration": 3.452908,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      2.085172,
+      "\u001b[?1034h\u001b[0;32m✔\u001b[0;0m \u001b[0;33m~/git/log-tables-example\u001b[0;0m [\u001b[0;35mmaster\u001b[0;0m|\u001b[0;34m✚ 6\u001b[0;0m\u001b[0;36m…2\u001b[0;0m\u001b[0;0m] \r\r\n\u001b[0;37m15:22\u001b[0;0m $ "
+    ],
+    [
+      0.926786,
+      "\r\n"
+    ],
+    [
+      0.214653,
+      "^C"
+    ],
+    [
+      0.001749,
+      "\r\n"
+    ],
+    [
+      0.223359,
+      "\u001b[0;31m✘-1\u001b[0;0m \u001b[0;33m~/git/log-tables-example\u001b[0;0m [\u001b[0;35mmaster\u001b[0;0m|\u001b[0;34m✚ 6\u001b[0;0m\u001b[0;36m…2\u001b[0;0m\u001b[0;0m] \r\r\n\u001b[0;37m15:22\u001b[0;0m $ "
+    ]
+  ]
+}

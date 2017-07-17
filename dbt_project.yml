@@ -10,7 +10,7 @@ archive:
   - source_schema: public
     target_schema: public
     tables:
-      - source_table: users
-        target_table: users_log
+      - source_table: orders
+        target_table: orders_log
         updated_at: updated_at
         unique_key: id

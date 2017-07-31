@@ -1,6 +1,6 @@
 # log-tables-example
 
-_[Read the blog post on Medium](https://medium.com/@connormcarthur/analytics-playbook-log-tables-705ea8373425)_
+_[Read the blog post on Medium](https://blog.fishtownanalytics.com/analytics-playbook-log-tables-7df0e6aacb42)_
 
 Automatically create log tables with [dbt](https://dbt.readme.io).
 

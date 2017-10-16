@@ -1,3 +1,3 @@
 {{config(materialized='view')}}
 
-select * from "orders_log"
+select * from "public"."orders_log"

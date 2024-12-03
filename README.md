@@ -1,3 +1,15 @@
+# ***Archival Notice***
+This repository has been archived.
+
+As a result all of its historical issues and PRs have been closed.
+
+Please *do not clone* this repo without understanding the risk in doing so:
+- It may have unaddressed security vulnerabilities
+- It may have unaddressed bugs
+
+<details>
+   <summary>Click for historical readme</summary>
+
 # log-tables-example
 
 _[Read the blog post on Medium](https://blog.fishtownanalytics.com/analytics-playbook-log-tables-7df0e6aacb42)_
@@ -44,3 +56,4 @@ dbt archive
 ---
 
 Made with love by [Fishtown Analytics](http://fishtownanalytics.com)
+
